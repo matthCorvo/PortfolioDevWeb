@@ -222,8 +222,11 @@ nav svg {
     text-align: right;
 }
 
+.nav-link{
+    color: var(--color-light);
+}
 
-.btn-nav {
+/* .btn-nav {
     color: var(--blue);
     background-color: transparent;
     border: 1px solid var(--blue);
@@ -236,7 +239,7 @@ nav svg {
     transition: var(--transition);
     margin-left: 15px;
     font-size: var(--fz-xs);
-}
+} */
 
 /* HERO SECTION  */
 
@@ -484,7 +487,7 @@ display: block;
 }
 .projects_list  a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-light);
 }
 
 .projects_list:not(:last-of-type) {
@@ -523,12 +526,11 @@ display: block;
     margin: 10px 0px;
     color: var(--blue);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-    font-weight: 400;
+    font-size: var(--fz-lg);
+    font-weight: 700;
 }
 
 .project-title {
-    color: var(--color-light);
     font-size: clamp(24px, 5vw, 28px);
 }
 
@@ -544,9 +546,10 @@ display: block;
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--body-color);
     color: var(--color-light);
     font-size: var(--fz-lg);
+    text-align: justify;
 }
 
 .projects_list:nth-child(odd) .project-tech-list li {
@@ -571,7 +574,7 @@ display: block;
     margin: 0px 20px 5px 0px;
     color: var(--color-light);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-lg);
     white-space: nowrap;
 }
 
@@ -654,8 +657,8 @@ text-align: center;
     margin-bottom: 20px;
     color: var(--blue);
     font-family: var(--font-mono);
-    font-size: var(--fz-md);
-    font-weight: 400;
+    font-size: var(--fz-xl);
+    font-weight: 700;
 }
 
 #contact .title {
@@ -668,7 +671,7 @@ text-align: center;
     border: 1px solid var(--blue);
     border-radius: var(--border-radius);
     padding: 1.25rem 1.75rem;
-    font-size: var(--fz-sm);
+    font-size: var(--fz-xl);
     font-family: var(--font-mono);
     line-height: 1;
     text-decoration: none;
@@ -690,25 +693,7 @@ footer {
         text-align: center;
 }
 
-.wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-      0% { transform: rotate( 0.0deg) }
-     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-     20% { transform: rotate(-8.0deg) }
-     30% { transform: rotate(14.0deg) }
-     40% { transform: rotate(-4.0deg) }
-     50% { transform: rotate(10.0deg) }
-     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-    100% { transform: rotate( 0.0deg) }
-  }
-  
+
   
 footer  .mobile_social{
    display : none ;
