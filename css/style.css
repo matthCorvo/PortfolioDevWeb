@@ -29,7 +29,6 @@
     --font-sans: 'Calibre', sans-serif;
     --fz-xxs: 12px;
     --fz-xs: 13px;
-    --fz-sm: 14px;
     --fz-md: 16px;
     --fz-lg: 18px;
     --fz-xl: 1.25rem;
@@ -73,7 +72,7 @@ main{
     width: 100%;
     max-width: 1600px;
     min-height: 100vh;
-    padding: 0px 150px;
+    /* padding: 0px 150px; */
     /* padding: 200px 150px; */
 }
 
@@ -123,6 +122,10 @@ p {
     font-family: var(--font-mono);
 }
 
+
+
+
+
  /* SOCIAL ICON  */
  .btn-toggle {
     fill: var(--color-light);
@@ -160,14 +163,10 @@ width: 1.5rem;
 .SocialList i {
 color: var(--color-light);
 }
-.SocialList i:hover {
+.SocialList li:hover i {
     transform: translateY(-5px);
 color: var(--blue);
-
-
 }
-
-
 
 .SocialList::after {
     content: "";
@@ -178,8 +177,37 @@ color: var(--blue);
     background-color: var(--color-light);
 }
 
+footer .mobile_social{
+   display: none;
+}
+  
+@media only screen and (max-width: 768px){
+.left_social  {
+display: none;   
+ }
 
-/* navbar*/
+ footer .mobile_social_footer{
+    display : flex ;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+ }
+ footer .mobile_social_footer li{
+    justify-content: space-between;
+    margin: 2rem;
+    color: white;
+ }
+ footer .mobile_social_footer i{
+    color: white;
+ }
+ footer .mobile_social{
+    display: block;
+ }
+}
+
+/* *
+* NAVBAR ===========================================================================
+*/
 #offcanvasNavbar{
     background-color: var(--body-color);
 }
@@ -227,7 +255,7 @@ nav svg {
 .nbr-nav {
     margin-right: 5px;
     color: var(--blue);
-    font-size: var(--fz-sm);
+  
     text-align: right;
 }
 
@@ -250,7 +278,10 @@ nav svg {
     font-size: var(--fz-xs);
 } */
 
-/* HERO SECTION  */
+/* 
+* HERO SECTION ======================================================================================
+*/
+
 
 .Hero_Section {
     display: flex;
@@ -259,9 +290,10 @@ nav svg {
     -webkit-box-align: center;
     flex-direction: column;
     align-items: flex-start;
-   min-height: 100vh;
-    height: 100vh; 
-    padding: 0px;
+   /* min-height: 100vh;
+    height: 100vh;  */
+        padding: 100px 150px;
+
 }
 
  .Hero_Section h1 {
@@ -290,14 +322,19 @@ nav svg {
 
 }
 
-@media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
-    .Hero_Section {
-      height: auto;
-      padding-top: var(--nav-height);
-    }
+
+@media only screen and (max-width: 695px){
+
+     .big-heading h3{
+        font-size: 2rem;
+     }
   }
 
- /* about SECTION */
+
+ /* 
+ * about SECTION ========================================================================
+ */
+
  /* .About_Section {
     max-width: 900px;
 } */
@@ -347,7 +384,8 @@ nav svg {
     position: absolute;
     left: 0px;
     color: var(--blue);
-    font-size: var(--fz-sm);
+    font-size: var(-
+    );
     line-height: 12px;
 }
 
@@ -388,6 +426,8 @@ nav svg {
     left: 14px;
     z-index: -1;
 }
+
+
 
  /* JOBS SECTION */
 
@@ -677,7 +717,6 @@ display: block;
 
 #contact {
 max-width: 600px;
-margin: 0px auto 100px;
 text-align: center;
 }
 
@@ -729,7 +768,3 @@ footer {
 }
 
 
-  
-footer  .mobile_social{
-   display : none ;
-}
