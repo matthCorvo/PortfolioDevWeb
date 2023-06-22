@@ -187,14 +187,13 @@ width: 1.5rem;
 .SocialList i {
 color: var(--color-light);
 }
-.SocialList li:hover i {
-.SocialList li:hover i {
+.SocialList li:hover i{
     transform: translateY(-5px);
 color: var(--blue);
 }
 
 .SocialList::after {
-    content: "";
+    content: " ";
     display: block;
     width: 1px;
     height: 90px;
@@ -413,7 +412,7 @@ display: none;
     height: 100vh;  */
         padding: 200px 0px;
 
-}
+
 }
 
 
@@ -1262,4 +1261,4 @@ footer {
 }
 
 
-
+}
