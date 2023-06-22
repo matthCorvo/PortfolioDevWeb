@@ -137,6 +137,19 @@ main {
   padding: 0px 50px;
 }
 }
+
+@media only screen and (max-width: 1080px){
+
+    main {
+      padding: 0px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+main {
+  padding: 0px 50px;
+}
+}
  /* SOCIAL ICON  */
  .btn-toggle {
     fill: var(--color-light);
@@ -175,6 +188,7 @@ width: 1.5rem;
 color: var(--color-light);
 }
 .SocialList li:hover i {
+.SocialList li:hover i {
     transform: translateY(-5px);
 color: var(--blue);
 }
@@ -188,6 +202,37 @@ color: var(--blue);
     background-color: var(--color-light);
 }
 
+footer .mobile_social{
+   display: none;
+}
+  
+@media only screen and (max-width: 768px){
+.left_social  {
+display: none;   
+ }
+
+ footer .mobile_social_footer{
+    display : flex ;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+ }
+ footer .mobile_social_footer li{
+    justify-content: space-between;
+    margin: 2rem;
+    color: white;
+ }
+ footer .mobile_social_footer i{
+    color: white;
+ }
+ footer .mobile_social{
+    display: block;
+ }
+}
+
+/* *
+* NAVBAR ===========================================================================
+*/
 footer .mobile_social{
    display: none;
 }
@@ -240,6 +285,16 @@ display: none;
         fill: currentcolor;
         vertical-align: middle;
     }
+    
+    nav svg {
+        max-width: 100%;
+        width: 48px;
+        height: 42px;
+        fill: currentcolor;
+        vertical-align: middle;
+    }
+
+
 
 
 
@@ -263,7 +318,11 @@ display: none;
 .nbr-nav {
     position: relative;
     margin-right: 10px;
+    position: relative;
+    margin-right: 10px;
     color: var(--blue);
+    font-weight: 400;
+    font-family: var(--font-mono);
     font-weight: 400;
     font-family: var(--font-mono);
 }
@@ -350,8 +409,14 @@ display: none;
    /* min-height: 100vh;
     height: 100vh;  */
         padding: 200px 0px;
+   /* min-height: 100vh;
+    height: 100vh;  */
+        padding: 200px 0px;
 
 }
+}
+
+
 
 
 
@@ -376,6 +441,9 @@ display: none;
 /* Media queries for responsive adjustments */
 @media (max-width: 768px) {
   
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+  
     .Hero_Section {
         padding: 220px 0px; /* Adjust padding as per your needs */
       }
@@ -384,7 +452,31 @@ display: none;
       }
   .big-heading {
     font-size: clamp(25px, 6vw, 50px);
+        padding: 220px 0px; /* Adjust padding as per your needs */
+      }
+    .Hero_Section p{
+        width: 90%; /* Adjust padding as per your needs */
+      }
+  .big-heading {
+    font-size: clamp(25px, 6vw, 50px);
   }
+
+  .Hero_Section p {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 695px){
+
+    section .big-heading {
+        font-size: clamp(15px, 8vw, 30px);
+    }
+  }
+
+
+
+ /* 
+ * about SECTION ========================================================================
+ */
 
   .Hero_Section p {
     margin-top: 20px;
@@ -414,7 +506,9 @@ display: none;
     grid-template-columns: 3fr 2fr;
     gap: 50px;
     text-align: justify;
+    text-align: justify;
 }
+
 
 
 .inner p > a {
@@ -445,9 +539,15 @@ display: none;
     position: relative;
     margin-bottom: 10px;
     padding-left: 30px;
+    padding-left: 30px;
     font-size: var(--fz-lg);
 }
 
+
+
+.about_Style ul.skills-list .php::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f457";
 
 
 .about_Style ul.skills-list .php::before {
@@ -459,6 +559,97 @@ display: none;
     font-size: 1rem;
     /* line-height: 12px; */
 }
+
+.about_Style ul.skills-list .boot::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f836";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .react::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f41b";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .api::before {
+    font: var(--fa-font-solid);
+    content: "\f1c0";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .js::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f3b9";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .cms::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f411";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .symfo::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f83d";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .sql::before {
+    font: var(--fa-font-solid);
+    content: "\f1c0";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .dock::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f395";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
+.about_Style ul.skills-list .mongo::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f299";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+    /* line-height: 12px; */
+}
+
 
 .about_Style ul.skills-list .boot::before {
     font-family: 'Font Awesome 6 Brands';
@@ -565,6 +756,18 @@ display: none;
     border-radius: var(--border-radius);
     background-color: var(--blue);
 }
+
+.About_Pic .wrapper:hover, .About_Pic .wrapper:focus {
+    outline: 0px;
+    transform: translate(-4px, -4px);
+  }
+  .About_Pic .wrapper:hover, .About_Pic .wrapper:focus {
+    box-shadow: 0 20px 30px -15px var(--navy-shadow);
+  }
+.About_Pic .wrapper:hover:after{
+    transform: translate(8px, 8px);
+  }
+ 
 
 .About_Pic .wrapper:hover, .About_Pic .wrapper:focus {
     outline: 0px;
@@ -1057,5 +1260,6 @@ footer {
         padding: 15px;
         text-align: center;
 }
+
 
 
