@@ -387,7 +387,7 @@ display: none;
 @media (max-width: 768px) {
   
     .Hero_Section {
-        padding: 220px 0px; /* Adjust padding as per your needs */
+        padding: 100px 0px; /* Adjust padding as per your needs */
         width: 350px;
       }
     .Hero_Section p{
