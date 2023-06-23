@@ -1034,11 +1034,8 @@ text-align: center;
     transition: var(--transition);
     margin-top: 50px;
 }
-#contact .email-link:hover {
-    outline: none;
-    box-shadow: 4px 4px 0 0 var(--blue);
-    transform: translate(-5px, -5px);
-}
+
+
 @media (max-width: 411px) {
     #contact .email-link {
         padding: .9rem .9rem;
