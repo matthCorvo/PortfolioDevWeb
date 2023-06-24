@@ -137,6 +137,10 @@ p {
     font-family: var(--font-mono);
 }
 
+.nbr-head a{
+text-decoration: none;
+color: var(--blue);
+}
 
 @media only screen and (max-width: 1080px){
 
