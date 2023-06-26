@@ -1,6 +1,6 @@
-# GitHub Profile 
 
-<p align="center"><a href="https://matthcorvo.github.io/PortfolioDevWeb/"><img width="80%" alt="Hello, I'm Matthieu. Developper Back-End" src="./logo.svg" /></a></p>
+
+<p align="center"><a href="https://matthcorvo.github.io/PortfolioDevWeb/"><img  style="color:#64ffda;fill: none;" src="./logo.svg" /></a></p>
 
 <br />
 
