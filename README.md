@@ -12,11 +12,9 @@
                     </svg>
 
 </a></p>
-</a></p>
 
 <br />
 
-I'm a passionate BackEnd developer from France 🇫🇷
 
 **About me**
 
