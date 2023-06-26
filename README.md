@@ -1,24 +1,29 @@
-# GitHub Profile - Readme
+# GitHub Profile 
 
+<p align="center"><a href="https://matthcorvo.github.io/PortfolioDevWeb/"><img width="80%" alt="Hello, I'm Matthieu. Developper Back-End" src="./favicon.ico" /></a></p>
 
-## About Me
+<br />
 
-Je suis un développeur passionné par la programmation et la conception d'applications. Actuellement, en reconversion à LaPasserelle, je suis en formation en développement back-end PHP/Symfony. Mon objectif est de me spécialiser davantage dans ce domaine afin de concrétiser des projets ambitieux et innovants.
+I'm a passionate BackEnd developer from France 🇫🇷
+
+**About me**
+
+- 💼 BackEnd developer at [LaPasserelle](https://www.lapasserelle.school/)
+
+<code><img height="20" alt="javascript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<code><img height="20" alt="react" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+<code><img height="20" alt="php" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>    
+<code><img height="20" alt="Symfony" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/symfony/symfony.png"></code>    
+<code><img height="20" alt="WordPress" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png"></code>    
+<code><img height="20" alt="Bootstrap" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>    
+<code><img height="20" alt="MySQL" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>    
+<code><img height="20" alt="API" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/api/api.png"></code>    
 
 ## Technologies
 
 Voici les principales technologies avec lesquelles j'ai récemment travaillé :
 
-- PHP ![PHP](https://fontawesome.com/icons/php?style=brands)
-- React JS ![React](https://fontawesome.com/icons/react?style=brands)
-- JavaScript ![JavaScript](https://fontawesome.com/icons/javascript?style=brands)
-- Symfony ![Symfony](https://fontawesome.com/icons/symfony?style=brands)
-- MongoDB ![MongoDB](https://fontawesome.com/icons/database?style=regular)
-- Docker ![Docker](https://fontawesome.com/icons/docker?style=brands)
-- WordPress ![WordPress](https://fontawesome.com/icons/wordpress?style=brands)
-- Bootstrap ![Bootstrap](https://fontawesome.com/icons/bootstrap?style=brands)
-- MySQL ![MySQL](https://fontawesome.com/icons/database?style=brands)
-- API ![API](https://fontawesome.com/icons/api?style=regular)
+
 
 ## Projects
 
@@ -34,7 +39,7 @@ N'hésitez pas à consulter mon profil GitHub pour découvrir plus de projets in
 
 Vous pouvez me contacter via les liens suivants :
 
-- [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/corvomatthieu/))
+- [LinkedIn](https://www.linkedin.com/in/corvomatthieu/)
 - [Email](promatthcorvo@gmail.com)
 
 Je suis ouvert aux opportunités de collaboration. N'hésitez pas à me contacter.
