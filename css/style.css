@@ -689,6 +689,7 @@ display: none;
     .tabs-container .tabs a.active, .tabs-container .tabs .tab.active {
         border-left-color: var(--blue);
         border-left-width: 3px;
+            color: var(--blue);
    }
 }
 @media (max-width: 960px) {
