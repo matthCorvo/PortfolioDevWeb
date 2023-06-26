@@ -1,28 +1,26 @@
-
-
-<p align="center"><a href="https://matthcorvo.github.io/PortfolioDevWeb/"><svg style=" color:blue;fill: none;" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
-                        <title>Logo</title>
-                        <g transform="translate(-8.000000, -2.000000)">
-                            <g transform="translate(11.000000, 5.000000)">
-                                <polygon id="Shape" stroke="currentColor" stroke-width="5" stroke-linecap="round"
-                                    stroke-linejoin="round" points="39 0 0 22 0 67 39 90 78 68 78 23"></polygon>
-                                <text x="8" y="59" font-size="40" font-family="Arial" fill="currentColor">MC</text>
-                            </g>
-                        </g>
-                    </svg>
-
-</a></p>
+**bienvenue sur mon github 👋🏾 👨🏾‍💻**
 
 <br />
 
 
-**About me**
+**a propos**
 
-- 💼 BackEnd developer at [LaPasserelle](https://www.lapasserelle.school/)
+- 💼  developpeur BackEnd (https://matthcorvo.github.io/PortfolioDevWeb/)
 
 ## Technologies
 
 Voici les principales technologies avec lesquelles j'ai récemment travaillé :
+
+- PHP
+- React JS
+- JavaScript
+- Symfony
+- MongoDB
+- Docker
+- WordPress
+- Bootstrap
+- MySQL
+- API
 
 
 ## Projects
