@@ -29,7 +29,7 @@ Voici quelques exemples de projets sur lesquels j'ai travaillé :
 
 1. [KARAIBESFOODS](https://matthcorvo.github.io/KARAIBESFOODS/) - Liste de restaurants
 2. [GWOKA-Drum-kit](https://matthcorvo.github.io/Mon-GWOKA-Drum-kit/) - Drum Kit (Tambour*)
-3. [BokitGame](https://matthcorvo.github.io/BokitGame/) - Attrape Burgers.
+3. [BokitGame](https://github.com/matthCorvo/bokitGameV2) - Attrape Burgers.
 
 N'hésitez pas à consulter mon profil GitHub pour découvrir plus de projets intéressants.
 
