@@ -722,8 +722,7 @@ display: none;
 
 .tabs-container .tabs-content p:before{
     content: "▹";
-    position: absolute;
-    left: -15px;
+    margin-right: 20px;
     color: var(--blue);
 }
 
