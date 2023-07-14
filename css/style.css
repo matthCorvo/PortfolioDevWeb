@@ -551,6 +551,15 @@ display: none;
     font-size: 1rem;
 }
 
+.about_Style ul.skills-list .git::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f1d3";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+}
+
 
 .About_Pic {
     position: relative;
