@@ -560,6 +560,25 @@ display: none;
     font-size: 1rem;
 }
 
+.about_Style ul.skills-list .ng::before {
+    font-family: 'Font Awesome 6 Brands';
+    content: "\f420";
+    position: absolute;
+    left: 0px;
+    color: var(--blue);
+    font-size: 1rem;
+}
+
+.about_Style ul.skills-list .nest::before {
+    content: "";
+    background-image: url('https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg');
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em; 
+}
+
 
 .About_Pic {
     position: relative;
