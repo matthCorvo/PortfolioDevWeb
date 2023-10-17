@@ -577,6 +577,9 @@ display: none;
     width: 1em;
     height: 1em;
     left: 0px;
+    position: absolute;
+    left: 0px;
+    font-size: 1rem;
 }
 
 
