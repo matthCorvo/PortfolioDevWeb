@@ -873,7 +873,7 @@ font-size: 1rem;
     font-size: 17px;
     line-height: 1.5;
     background-color: var(--light-navy);
-    color: var(--color-light);
+    color: #ffffff;
       border-radius: 10px;
     }
     .project-description p{
