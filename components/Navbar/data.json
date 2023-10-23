@@ -1,0 +1,9 @@
+{
+  "navLinks":
+    [
+        { "href": "#Projets", "label": "Projets" },
+        { "href": "#Expériences", "label": "Expériences" },
+        { "href": "#Skills", "label": "Compétences" },
+        { "href": "#Contact", "label": "Contact" }
+    ]
+}
