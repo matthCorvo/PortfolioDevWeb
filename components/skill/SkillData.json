@@ -1,0 +1,37 @@
+{
+    "skills":
+      [
+          { "id":1,
+           "title": "BACK END",
+          "technologies": [
+            "PHP",
+            "Symfony",
+            "NestJS"
+
+          ]
+        },
+
+          { "id":2,
+          "title": "FRONT END",
+          "technologies": [
+            "HTML 5 / CSS",
+            "Twig",
+            "Javascript",
+            "Angular",
+            "React JS",
+            "Bootstrap",
+            "TailwindCSS"
+          ]
+        },
+
+          { "id":3,
+          "title": "DATABASE",
+          "technologies": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB"
+          ]
+        }
+         
+      ]
+  }

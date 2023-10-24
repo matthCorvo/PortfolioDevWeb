@@ -2,8 +2,9 @@
 {
   "navLinks":
     [
-        { "id": "2", "href": "#Skills", "label": "Compétences" },
-        { "id": "1", "href": "#Projets", "label": "Projets" },
-        { "id": "3",  "href": "#Contact", "label": "Contact" }
+        { "id": "1", "href": "#Accueil", "label": "Accueil" },
+        { "id": "2", "href": "#Compétences", "label": "Compétences" },
+        { "id": "3", "href": "#Projets", "label": "Projets" },
+        { "id": "4",  "href": "#Contact", "label": "Contact" }
     ]
 }

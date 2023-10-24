@@ -1,8 +1,6 @@
-import { TbBrandGithubFilled } from "react-icons/tb";
-import { MdEmail } from "react-icons/md";
-import {
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { TbBrandGithubFilled } from 'react-icons/tb';
+import { MdEmail } from 'react-icons/md';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const SocialIcons = () => {
   return (

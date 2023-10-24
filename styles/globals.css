@@ -6,3 +6,7 @@
   background: linear-gradient(to bottom, #e5e7eb, rgba(243, 244, 246, 0.914));
 }
 
+/* skill */
+.bloc-skill {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
