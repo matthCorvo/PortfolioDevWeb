@@ -29,7 +29,7 @@ module.exports = {
         textGreen: "#054396",
         textLight: "#ccd6f6",
         textDark: "#545454",
-        hoverColor: "rgba(100,255,218,0.1)",
+        hoverColor: "#F2F3F5",
       },
       fontFamily: {
         bodyFont: ["Montserrat", "sans-serif"],

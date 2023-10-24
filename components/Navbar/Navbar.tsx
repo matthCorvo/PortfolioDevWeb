@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion';
-import navLinksData from './data.json';
+import navLinksData from './NavData.json';
 
 const Navbar = () => {
 
@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className="flex text-[13px] gap-7">
              {navLinksData.navLinks.map((link) => (
              <Link 
-             key={link.label}
+             key={link.id}
              href={link.href}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               >
