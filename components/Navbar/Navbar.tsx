@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion';
 import navLinksData from './NavData.json';
-import { useRef, useState  } from "react";
+import { useRef, useState  } from 'react';
 import { MdEmail, MdOutlineClose } from 'react-icons/md';
 import { TbBrandGithubFilled } from 'react-icons/tb';
 import { FaLinkedinIn } from 'react-icons/fa';
