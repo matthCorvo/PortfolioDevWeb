@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle';
-import skillData from './SkillData.json';
+import skillData from './dataSkill.json';
 import { FaPhp, FaAngular, FaReact, FaBootstrap } from "react-icons/fa"; 
 import { DiSymfonyBadge } from "react-icons/di"; 
 import { SiNestjs, SiTailwindcss } from "react-icons/si"; 

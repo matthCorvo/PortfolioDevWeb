@@ -3,7 +3,7 @@ import SectionTitle from '../SectionTitle'
 import Image from 'next/image'
 import { TbBrandGithub } from 'react-icons/tb'
 import { BsBoxArrowInUpRight } from 'react-icons/bs'
-import projetData from './ProjetData.json';
+import projetData from './dataProjet.json';
 import { motion } from 'framer-motion';
 
 const Projet = () => {

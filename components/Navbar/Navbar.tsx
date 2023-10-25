@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion';
-import navLinksData from './dataNav.json';
+import navLinksData from "./dataNav.json";
 import { useRef, useState  } from 'react';
 import { MdEmail, MdOutlineClose } from 'react-icons/md';
 import { TbBrandGithubFilled } from 'react-icons/tb';
