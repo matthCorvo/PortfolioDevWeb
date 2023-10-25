@@ -20,11 +20,11 @@ interface AboutProps {
         className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          En 2020, j'ai débuté en créant des sites web, principalement Shopify, à la demande de proches. Après une intense auto-formation, j'ai suivi une formation au <span className="text-textGreen">GRETA</span> pour devenir développeur web. J'ai ensuite élargi mes compétences en front-end avec JavaScript, Bootstrap et Tailwind CSS. Plus tard, j'ai formé des adultes sur l'utilisation de WordPress. </p>
+          En 2020, j&apos;ai débuté en créant des sites web, principalement Shopify, à la demande de proches. Après une intense auto-formation, j&apos;ai suivi une formation au <span className="text-textGreen">GRETA</span> pour devenir développeur web. J&apos;ai ensuite élargi mes compétences en front-end avec JavaScript, Bootstrap et Tailwind CSS. Plus tard, j&apos;ai formé des adultes sur l&apos;utilisation de WordPress. </p>
           <p> 
-          Pour approfondir mon savoir en gestion de projets, j'ai suivi une formation en chef de projet digital avec <span className="text-textGreen">DORANCO</span>. J'y ai acquis des compétences en React et en back-end avec Node.js, Express.js, PHP et Symfony. </p>
+          Pour approfondir mon savoir en gestion de projets, j&apos;ai suivi une formation en chef de projet digital avec <span className="text-textGreen">DORANCO</span>. J&apos;y ai acquis des compétences en React et en back-end avec Node.js, Express.js, PHP et Symfony. </p>
           <p>    
-          J'ai renforcé mes compétences en m'immergeant dans un POEC à <span className="text-textGreen">La Passerelle </span>axé sur le PHP, avec Symfony, MySQL et MongoDB. J'ai réussi des projets en PHP, collaboré avec des designers en équipe en fin de formation, élargissant ainsi ma polyvalence de développeur.
+          J&apos;ai renforcé mes compétences en m&apos;immergeant dans un POEC à <span className="text-textGreen">La Passerelle </span>axé sur le PHP, avec Symfony, MySQL et MongoDB. J&apos;ai réussi des projets en PHP, collaboré avec des designers en équipe en fin de formation, élargissant ainsi ma polyvalence de développeur.
           </p>          
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">

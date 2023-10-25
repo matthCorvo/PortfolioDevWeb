@@ -13,7 +13,7 @@ const Contact = () => {
     <SectionTitle title="Contact"  />
     <div>
         <p className="text-gray-700 -mt-6 dark:text-white/80">
-        N'hésitez pas à me contacter directement par{" "}
+        N&apos;hésitez pas à me contacter directement par{" "}
         <a target="_blank"className="underline" href="mailto:promatthcorvo@gmail.com">
         e-mail
         </a>
