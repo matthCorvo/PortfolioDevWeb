@@ -10,3 +10,12 @@
 .bloc-skill {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+
+
+.scrollbarHide::-webkit-scrollbar {
+  display: none;
+}
+.active {
+  color: #054396;
+}

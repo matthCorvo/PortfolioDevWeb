@@ -1,10 +1,17 @@
 import { motion } from 'framer-motion';
+import About from './About';
+import React, { useState } from 'react'
 
 const Banner = () => {
+const [toggle, setToggle] = useState(true);
+const handleClick = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <section
       id="Accueil"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-14 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+      className="max-w-contentContainer mx-auto pt-10 mdl:py-14 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
     
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -20,8 +27,8 @@ const Banner = () => {
       
       <div className="flex flex-col sm:flex-row items-center  gap-4  text-lg font-medium" >
 
-      <a href="" target="_blank">
         <motion.button
+          onClick={handleClick} 
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
@@ -29,7 +36,6 @@ const Banner = () => {
         >
           qui suis-je ?
         </motion.button>
-      </a>
 
       <a href="/assets/CV.pdf" target="_blank">
         <motion.button
@@ -42,7 +48,7 @@ const Banner = () => {
         </motion.button>
       </a>
       </div>
-
+      <About toggle={toggle} setToggle={setToggle} />
 
     </section>
   );

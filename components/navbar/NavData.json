@@ -3,7 +3,7 @@
   "navLinks":
     [
         { "id": "1", "href": "#Accueil", "label": "Accueil" },
-        { "id": "2", "href": "#Compétences", "label": "Compétences" },
+        { "id": "2", "href": "#Skill", "label": "Compétences" },
         { "id": "3", "href": "#Projets", "label": "Projets" },
         { "id": "4",  "href": "#Contact", "label": "Contact" }
     ]

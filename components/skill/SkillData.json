@@ -14,11 +14,10 @@
           { "id":2,
           "title": "FRONT END",
           "technologies": [
-            "HTML 5 / CSS",
             "Twig",
             "Javascript",
             "Angular",
-            "React JS",
+            "ReactJS",
             "Bootstrap",
             "TailwindCSS"
           ]
